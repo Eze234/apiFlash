@@ -29,7 +29,7 @@ router.route("/text/:id").get(async function(req, res) {
     if (data) {
         res.send(`[${data.song}](${data.url}) de ${data.author}`);
     } else {
-        res.send(`[Nothing](${process.env.spotify})`)
+        res.send(`[Nothing](${process.env.spotify || "https://spotify.com"})`)
     }
 })
 

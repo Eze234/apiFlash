@@ -5,8 +5,8 @@ config();
 
 const server = express();
 
-server.listen(process.env.port, () => {
-    console.log(`[API] => Api listening ${process.env.port} port.`)
+server.listen(process.env.port || 3000, () => {
+    console.log(`[API] => Api listening ${process.env.port || 3000} port.`)
 })
 
 // # Routes
