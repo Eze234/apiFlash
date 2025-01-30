@@ -1,8 +1,8 @@
 {
   "name": "ezeapi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A custom api",
-  "main": "index.js",
+  "main": "build/src/app.js",
   "scripts": {
     "test": "npx ts-node test/test.ts",
     "start": "npx ts-node src/app.ts"
