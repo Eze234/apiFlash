@@ -1,0 +1,31 @@
+{
+  "name": "ezeapi",
+  "version": "1.0.0",
+  "description": "A custom api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ts-node test/test.ts",
+    "start": "npx ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eze234/apiFlash.git"
+  },
+  "author": "Eze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eze234/apiFlash/issues"
+  },
+  "homepage": "https://github.com/Eze234/apiFlash#readme",
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

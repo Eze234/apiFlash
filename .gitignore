@@ -1,0 +1,17 @@
+# Node
+node_modules
+package-lock.json
+
+# IDE
+.idea
+.vscode
+
+# TypeScript
+build
+.tsbuildinfo
+
+# Local
+.env
+
+# Developer
+test/*.ts
